@@ -31,6 +31,15 @@ html {
     vertical-align: middle;
 }
 
+.title2 {
+    float: left;
+    height: 32px;
+    margin: 0 auto;
+    font-weight:lighter;
+    vertical-align: middle;
+    color:rgb(202, 200, 200);    
+}
+
 .navigation {
    float: right;
    height: 100%;
