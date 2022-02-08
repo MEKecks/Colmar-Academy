@@ -51,13 +51,13 @@ html {
     display: table;
     float: left;
     padding: 0px 16px;
+    text-decoration: none;
 }
 
 .navigation a li{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    text-decoration: underline;
     color:rgb(78, 78, 78)
 }
 
@@ -78,8 +78,29 @@ html {
 }
 
 .banner img {
-    width: 60%;
+    width: 100%;
     padding: 32px 24px;
+}
+
+.bannertext h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.bannertext h3 {
+    font-size: 25px;
+}
+
+.button {
+    background-color:rgb(78, 78, 78);
+    padding: 8px 50px;
+    width: 40%;
+    justify-items: center;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
 }
 
 .left {
