@@ -44,6 +44,7 @@ html {
    float: right;
    height: 100%;
    margin: 0 auto;
+   padding-right: 24px;
 }
 
 .navigation a {
@@ -61,7 +62,7 @@ html {
     color:rgb(78, 78, 78)
 }
 
-.banner{
+.banner {
     background-color:rgb(202, 200, 200);
     width: 100%;
     display: flex;
@@ -70,7 +71,6 @@ html {
 
 .bannercontainer {
     background-color: rgb(202, 200, 200);
-    max-width: 1050px;
     padding: 2rem 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -114,4 +114,44 @@ html {
     display: flex;
     align-items: center;
     padding: 0px 1.25rem;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.informationcontainer {
+    padding: 2rem 1.5rem;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.infoimg {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+}
+
+.information img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.infoimg-text {
+    padding-left: 24px;
+    font-size: 25px;
+}
+
+.infoimg h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.eveniet {
+    font-size: 30px;
+    font-weight: lighter;
 }
