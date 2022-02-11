@@ -79,7 +79,7 @@ html {
 .banner-container img {
     width: 60%;
     margin-top: 32px;
-    padding: 32px 24px;
+    padding: 24px 32px;
 }
 
 .banner-text {
@@ -105,4 +105,37 @@ html {
     text-align: center;
     text-decoration: none;
     color: white;
+}
+
+.info-container {
+    border: 1px rgb(202, 200, 200);
+    padding: 24px 32px;
+    height: auto;
+}
+
+.info-left {
+    width: 60%;
+    padding: 24px 32px;
+    border: 1px rgb(202, 200, 200)
+}
+
+.info-left img {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.info-caption h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.info-caption h4 {
+    font-size: 30px;
+    padding-bottom: 24px;
+    font-weight: lighter;
+}
+
+.info-caption p {
+    font-size: 20px;
 }
