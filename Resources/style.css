@@ -111,6 +111,7 @@ html {
     border: 1px rgb(202, 200, 200);
     padding: 24px 32px;
     height: auto;
+    display: flex;
 }
 
 .info-left {
@@ -138,4 +139,25 @@ html {
 
 .info-caption p {
     font-size: 20px;
+}
+
+.info-right {
+    width: 40%;
+    padding: 24px 32px;
+    border: 1px rgb(202, 200, 200);
+    display: inline-block;
+}
+
+.info-right img {
+    height: auto;
+    width: 35%;
+}
+
+.info-text {
+    width: 65%;
+    float: right;
+}
+
+.info-text a {
+    text-decoration: none;
 }
