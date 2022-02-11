@@ -69,134 +69,40 @@ html {
     color:rgb(78, 78, 78)
 }
 
-.banner {
+.banner-container {
     background-color:rgb(202, 200, 200);
-    width: 100%;
+    padding: 24px 32px;
     display: flex;
-    justify-content: center;
+    height: auto;
 }
 
-.bannercontainer {
-    background-color: rgb(202, 200, 200);
-    padding: 2rem 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-}
-
-.banner img {
-    width: 100%;
+.banner-container img {
+    width: 60%;
+    margin-top: 32px;
     padding: 32px 24px;
 }
 
-.bannertext {
-    padding: 32px 24px;
-    justify-content: space-around;
-    align-items: center;
+.banner-text {
+    width: 40%;
+    margin: auto;
 }
-.bannertext h1 {
-    font-weight: 900px;
-    font-size: 50px;
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: bold;
     padding-bottom: 24px;
 }
 
-.bannertext h4 {
-    font-size: 25px;
+.banner-text h2 {
+    font-size: 35px;
 }
-
 .button {
     background-color:rgb(78, 78, 78);
     display: block;
     font-weight: 700;
-    width: 400px;
+    width: 75%;
     padding: 8px 50px;
-    align-items: center;
     margin: 40px auto;
     text-align: center;
-}
-
-.button a {
+    text-decoration: none;
     color: white;
-    text-decoration: none;
-}
-
-.left {
-    width: 60%;
-    display: flex;
-    padding: 0px 1.25rem;
-}
-
-.right {
-    width: 40%;
-    display: flex;
-    
-    padding: 0px 1.25rem;
-}
-
-.information {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.informationcontainer {
-    padding: 2rem 1.5rem;
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
-}
-
-.infoimg {
-    vertical-align: top;
-    display: inline-block;
-    text-align: left;
-}
-
-.information img {
-    width: 100%;
-    padding: 32px 24px;
-}
-
-.infoimg-text {
-    padding-left: 24px;
-    font-size: 25px;
-}
-
-.infoimg h1 {
-    font-weight: bolder;
-    font-size: 40px;
-    padding-bottom: 24px;
-}
-
-.eveniet {
-    font-size: 30px;
-    font-weight: lighter;
-}
-
-.info-container {
-    display: inline-flex;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    align-items: top;
-    justify-content: left;
-    border:rgb(202, 200, 200) 10px;
-}
-
-.info img {
-    height: auto;
-    width: 272px;
-    padding: 16px 16px;
-    float: left;
-}
-
-.info-text {
-    text-align: left;
-    width: 65%;
-    float: right;
-}
-.info a {
-    text-decoration: none;
-    color: skyblue;
 }
