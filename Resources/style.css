@@ -146,18 +146,35 @@ html {
     padding: 24px 32px;
     border: 1px rgb(202, 200, 200);
     display: inline-block;
+    height: auto;
 }
 
 .info-right img {
     height: auto;
     width: 35%;
+    padding: 16px 16px;
 }
 
 .info-text {
     width: 65%;
     float: right;
+    padding-top: 45px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+}
+
+.info-text h2 {
+    padding-bottom: 8px;
+}
+
+.info-text p {
+    padding-bottom: 8px;
 }
 
 .info-text a {
     text-decoration: none;
+}
+
+.info-gray {
+    background-color:rgb(202, 200, 200);
 }
