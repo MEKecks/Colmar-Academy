@@ -178,3 +178,27 @@ html {
 .info-gray {
     background-color:rgb(202, 200, 200);
 }
+
+.start {
+    background-color:rgb(202, 200, 200);
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 32px;
+    color:rgb(78, 78, 78);
+}
+
+.start-container {
+    background-color:rgb(202, 200, 200);
+    padding: 32px 72px;
+    display: inline-flex;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learning {
+    background-color: white;
+}
