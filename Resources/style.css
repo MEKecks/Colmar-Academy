@@ -144,9 +144,11 @@ html {
 .info-right {
     width: 40%;
     padding: 24px 32px;
-    border: 1px rgb(202, 200, 200);
     display: inline-block;
     height: auto;
+    border-left-style: solid;
+    border-color:rgb(202, 200, 200);
+    border-width: 1px;
 }
 
 .info-right img {
@@ -324,3 +326,36 @@ html {
 .theis-text p {
     padding-bottom: 8px;
 }
+
+.footer {
+    padding: 24px 16px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color:rgb(202, 200, 200);
+}
+
+.footer i {
+    font-style: normal;
+}
+
+.foot-link {
+    padding: 24px 16px;
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    padding-right: 24px;
+ }
+ 
+ .foot-link a {
+     height: 100%;
+     display: table;
+     float: left;
+     padding: 0px 16px;
+     text-decoration: none;
+ }
+ 
+ .foot-link a li{
+     display: table-cell;
+     vertical-align: middle;
+     height: 100%;
+     color:rgb(78, 78, 78)
