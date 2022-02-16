@@ -260,17 +260,20 @@ html {
 
 .thesis-container {
     padding: 24px 32px;
+    height: auto;
+    display: flex;
 }
 
-.thesis-container h1 {
+.thesis-title h1 {
     font-weight: bold;
     font-size: 60px;
     text-align: center;
-    padding-bottom: 32px;
+    padding: 32px;
 }
 
 .thesis-left {
     width: 60%;
+    padding-right: 24px;
 }
 
 .thesis-left video {
@@ -287,4 +290,37 @@ html {
 .thesis-left p {
     font-size: 20px;
     font-weight: lighter;  
+}
+
+.thesis-right {
+    width: 40%;
+    padding: 24px;
+    display: inline-block;
+    height: auto;
+}
+
+.thesis-right img {
+    height: auto;
+    width: 35%;
+    padding: 16px 16px;
+}
+
+.thesis-grey {
+    background-color:rgb(202, 200, 200);
+}
+
+.thesis-text {
+    width: 65%;
+    float: right;
+    padding-top: 45px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+}
+
+.thesis-text h2 {
+    padding-bottom: 8px;
+}
+
+.theis-text p {
+    padding-bottom: 8px;
 }
