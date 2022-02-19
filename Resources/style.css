@@ -22,25 +22,25 @@ html {
     border-bottom: white;
     background-color:white;
     top: 0px;
-    height: 64px;
+    height: 4rem;
 }
 
 .logo {
-    height:64px;
+    height:4rem;
     float: left;
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 
 .title {
     float: left;
-    height: 32px;
+    height: 2rem;
     margin: 0 auto;
     vertical-align: middle;
 }
 
 .title2 {
     float: left;
-    height: 32px;
+    height: 2rem;
     margin: 0 auto;
     font-weight:lighter;
     vertical-align: middle;
@@ -51,14 +51,14 @@ html {
    float: right;
    height: 100%;
    margin: 0 auto;
-   padding-right: 24px;
+   padding-right: 1.5rem;
 }
 
 .navigation a {
     height: 100%;
     display: table;
     float: left;
-    padding: 0px 16px;
+    padding: 0rem 1rem;
     text-decoration: none;
 }
 
@@ -71,15 +71,15 @@ html {
 
 .banner-container {
     background-color:rgb(202, 200, 200);
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     display: flex;
     height: auto;
 }
 
 .banner-container img {
     width: 60%;
-    margin-top: 32px;
-    padding: 24px 32px;
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .banner-text {
@@ -87,90 +87,90 @@ html {
     margin: auto;
 }
 .banner-text h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 }
 
 .banner-text h2 {
-    font-size: 35px;
+    font-size: 2.2rem;
 }
 .button {
     background-color:rgb(78, 78, 78);
     display: block;
     font-weight: 700;
     width: 75%;
-    padding: 8px 50px;
-    margin: 40px auto;
+    padding: 0.5rem 3.12rem;
+    margin: 2.5rem auto;
     text-align: center;
     text-decoration: none;
     color: white;
 }
 
 .info-container {
-    border: 1px rgb(202, 200, 200);
-    padding: 24px 32px;
+    border: 0.06rem rgb(202, 200, 200);
+    padding: 1.5rem 2rem;
     height: auto;
     display: flex;
 }
 
 .info-left {
     width: 60%;
-    padding: 24px 32px;
-    border: 1px rgb(202, 200, 200)
+    padding: 1.5rem 2rem;
+    border: 0.06rem rgb(202, 200, 200)
 }
 
 .info-left img {
     width: 100%;
-    padding-bottom: 32px;
+    padding-bottom: 2rem;
 }
 
 .info-caption h1 {
-    font-size: 50px;
+    font-size: 3.12rem;
     font-weight: bold;
     padding-bottom: 24px;
 }
 
 .info-caption h4 {
     font-size: 30px;
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
     font-weight: lighter;
 }
 
 .info-caption p {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .info-right {
     width: 40%;
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     display: inline-block;
     height: auto;
     border-left-style: solid;
     border-color:rgb(202, 200, 200);
-    border-width: 1px;
+    border-width: 0.06rem;
 }
 
 .info-right img {
     height: auto;
     width: 35%;
-    padding: 16px 16px;
+    padding: 1rem;
 }
 
 .info-text {
     width: 65%;
     float: right;
-    padding-top: 45px;
-    padding-bottom: 8px;
-    padding-right: 24px;
+    padding-top: 2.8rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
 }
 
 .info-text h2 {
-    padding-bottom: 8px;
+    padding-bottom: 0..5rem;
 }
 
 .info-text p {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
 }
 
 .info-text a {
@@ -184,18 +184,18 @@ html {
 .start {
     background-color:rgb(202, 200, 200);
     align-items: center;
-    font-size: 50px;
+    font-size: 3.12rem;
     text-align: center;
-    padding-top: 32px;
+    padding-top: 2rem;
     color:rgb(78, 78, 78);
 }
 
 .grid-container {
     background-color:rgb(202, 200, 200);
-    padding: 32px 72px;
+    padding: 2rem 4.5rem;
     display: inline-grid;
     max-width: 100%;
-    grid-gap: 32px;
+    grid-gap: 2rem;
 }
 
 .grid-container img {
@@ -203,25 +203,25 @@ html {
 }
 
 .grid-container h3 {
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: bold;
-    padding: 16px 16px;
+    padding: 1rem;
 }
 
 .grid-container h6 {
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 25px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
 .grid-container p {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 24px;
-    font-size: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
@@ -261,21 +261,21 @@ html {
 }
 
 .thesis-container {
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     height: auto;
     display: flex;
 }
 
 .thesis-title h1 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3.75rem;
     text-align: center;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .thesis-left {
     width: 60%;
-    padding-right: 24px;
+    padding-right: 1.5rem;
 }
 
 .thesis-left video {
@@ -285,18 +285,18 @@ html {
 .thesis-left h3 {
     font-weight: bold;
     font-size: 30px;
-    padding-top: 24px;
-    padding-bottom: 8px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .thesis-left p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;  
 }
 
 .thesis-right {
     width: 40%;
-    padding: 24px;
+    padding: 1.5rem;
     display: inline-block;
     height: auto;
 }
@@ -304,7 +304,7 @@ html {
 .thesis-right img {
     height: auto;
     width: 35%;
-    padding: 16px 16px;
+    padding: 1rem;
 }
 
 .thesis-grey {
@@ -314,23 +314,23 @@ html {
 .thesis-text {
     width: 65%;
     float: right;
-    padding-top: 45px;
-    padding-bottom: 8px;
-    padding-right: 24px;
+    padding-top: 2.8rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
 }
 
 .thesis-text h2 {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
 }
 
 .theis-text p {
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
 }
 
 .footer {
-    padding: 24px 16px;
+    padding: 1.5rem 1rem;
     border-top-style: solid;
-    border-width: 1px;
+    border-width: 0.06rem;
     border-color:rgb(202, 200, 200);
 }
 
@@ -339,18 +339,18 @@ html {
 }
 
 .foot-link {
-    padding: 24px 16px;
+    padding: 1.5rem 1rem;
     float: right;
     height: 100%;
     margin: 0 auto;
-    padding-right: 24px;
+    padding-right: 1.5rem;
  }
  
  .foot-link a {
      height: 100%;
      display: table;
      float: left;
-     padding: 0px 16px;
+     padding: 0rem 1rem;
      text-decoration: none;
  }
  
