@@ -22,29 +22,29 @@ html {
     border-bottom: white;
     background-color:white;
     top: 0px;
-    height: 4rem;
+    min-height: 4rem;
 }
 
 .logo {
-    height:4rem;
+    min-height: 4rem;
     float: left;
     padding-left: 1.5rem;
 }
 
 .title {
     float: left;
-    height: 2rem;
+    min-height: 2rem;
     margin: 0 auto;
-    vertical-align: middle;
+    padding-top: 0.5rem;
 }
 
 .title2 {
     float: left;
-    height: 2rem;
+    min-height: 2rem;
     margin: 0 auto;
     font-weight:lighter;
-    vertical-align: middle;
-    color:rgb(202, 200, 200);    
+    color:rgb(202, 200, 200); 
+    padding-top: 0.5rem;   
 }
 
 .navigation {
@@ -52,6 +52,7 @@ html {
    height: 100%;
    margin: 0 auto;
    padding-right: 1.5rem;
+   padding-top: 1rem;
 }
 
 .navigation a {
@@ -76,8 +77,13 @@ html {
     height: auto;
 }
 
-.banner-container img {
+.banner-left {
     width: 60%;
+    padding: 1.5rem 2rem;
+}
+
+.banner-container img {
+    width: 100%;
     margin-top: 2rem;
     padding: 1.5rem 2rem;
 }
